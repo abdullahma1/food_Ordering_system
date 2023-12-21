@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HomeImage from "@/components/HomeImage";
 
@@ -14,6 +15,7 @@ const layout = ({childern}:Porps)=>{
             <div className="container mx-auto flex-1 py-10">
             {childern}
             </div>
+            <Footer/>
 
         </div>
     )
