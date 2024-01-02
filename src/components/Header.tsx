@@ -9,10 +9,10 @@ const Header = () => {
             <div className='container mx-auto flex justify-between items-center'>
                 <Link to="/" className='text-3xl font-bold tracking-tight text-orange-500'>
                     FOODEATS</Link>
-                <div className='md:hidden'>
+                <div className='md:hidden '>
                     <MobileNav />
                 </div>
-                <div className='hidden md:block'>
+                <div className='hidden md:block  mr-4'>
                     <MainNav/>
                 </div>
             </div>
