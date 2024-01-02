@@ -1,8 +1,8 @@
 import { useAuth0 } from '@auth0/auth0-react'
 import { DropdownMenuTrigger, DropdownMenu, DropdownMenuContent, DropdownMenuItem } from '@radix-ui/react-dropdown-menu'
 import { CircleUserRound } from 'lucide-react'
-import React from 'react'
 import { Link } from 'react-router-dom'
+import { Separator } from './ui/separator'
 
 const UserNameMenu = () => {
   const { user } = useAuth0();
@@ -19,6 +19,7 @@ const UserNameMenu = () => {
             User Profile
           </Link>
         </DropdownMenuItem>
+        <Separator/>
 
       </DropdownMenuContent>
 
